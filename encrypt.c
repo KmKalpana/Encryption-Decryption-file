@@ -25,6 +25,7 @@ int main()
   do
   {
     ++count;
+    //encryption keys.
     if(count%2==0)
   {
     fputc(ch+3,f2);
