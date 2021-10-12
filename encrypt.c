@@ -19,6 +19,7 @@ int main()
   printf("Error to creating new file.\n");
   exit(1);
   }
+  //logic for encrypt any file.
   int count=-1;
   ch=fgetc(f1);
   do
